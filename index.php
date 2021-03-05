@@ -26,15 +26,6 @@ $print_credit_trans = $result_credit_trans ->fetch_array();
 $total_credit_sum = $print_credit_food['FoodCreditvalue'] + $print_credit_misc['MISCCreditvalue'] + $print_credit_trans['TransCreditvalue'];
 
 
-// $sqlst = "SELECT SUM(`amount`) AS totalcreditvalue FROM  expense_details ";
-// $resultst = $conn -> query($sqlst);
-
-// $datast = $resultst ->fetch_array();
-// $datat = $datast['totalcreditvalue'];
-
-// $maincredit = $datat-$total_debit;
-
-
 ?>
 
 <!-- Transaction Calculation Start -->
