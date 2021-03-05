@@ -6,7 +6,7 @@ This project has been implemented in PHP. No Framework has been used.
 Project Deploy Instruction -
 
 1. First clone the project. 
-2. Move all the files in your project folder of either local or remote server.
+2. Move all the files in your project folder either on local or remote server.
   - Ex - xampp/htdocs/expense_tracker/.... (For XAMPP Instance)
   
 3. Create a database File Named :   expense
